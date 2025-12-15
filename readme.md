@@ -1,0 +1,7 @@
+# ranked killfeed
+ranked_killfeed.js shows the weapon of the enemy who has just died (AK dead, SMG dead, SNIPER dead, …)
+
+## Different settings:
+rankedOrComp_only: if you want the popups only for competitive/ranked matches, or also for pubs games (works only for team mode, not FFA)
+weapon_only: displays only the weapon, without “dead”
+color_feed: the text color (the same as the score popup color by default)
