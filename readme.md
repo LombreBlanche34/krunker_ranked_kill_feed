@@ -2,6 +2,7 @@
 ranked_killfeed.js shows the weapon of the enemy who has just died (AK dead, SMG dead, SNIPER dead, …)
 
 ## Different settings:
+<<<<<<< HEAD
 `rankedOrComp_only`: if you want the popups only for competitive/ranked matches, or also for pubs games (works only for team mode, not FFA)
 
 `weapon_only`: displays only the weapon, without “dead”
@@ -12,3 +13,10 @@ ranked_killfeed.js shows the weapon of the enemy who has just died (AK dead, SMG
 its 1am i know the code is ewwww but its working
 
 discord support: https://discord.gg/9aUJK9yAq9
+=======
+rankedOrComp_only: if you want the popups only for competitive/ranked matches, or also for pubs games (works only for team mode, not FFA)
+
+weapon_only: displays only the weapon, without “dead”
+
+color_feed: the text color (the same as the score popup color by default)
+>>>>>>> 1b1f0a8ccdfbb5393cf930656ed8359528673502
