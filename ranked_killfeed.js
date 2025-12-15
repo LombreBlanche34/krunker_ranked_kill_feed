@@ -44,7 +44,7 @@ const defaults = {
     lombre_ranked_killfeed_rankedOrComp_only: true,
 }
 
-const GITHUB_VERSION_URL = "https://raw.githubusercontent.com/LombreBlanche34/krunker_ranked_killfeed/refs/heads/main/version"
+const GITHUB_VERSION_URL = "https://raw.githubusercontent.com/LombreBlanche34/krunker_ranked_kill_feed/refs/heads/main/version"
 
 // Initialize localStorage if values don't exist
 Object.keys(defaults).forEach(key => {
