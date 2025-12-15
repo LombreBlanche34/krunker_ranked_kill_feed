@@ -1,6 +1,6 @@
 # ranked killfeed
 ranked_killfeed.js shows the weapon of the enemy who has just died (AK dead, SMG dead, SNIPER dead, …)
-
+![example](https://github.com/LombreBlanche34/krunker_ranked_kill_feed/blob/main/example.png?raw=true)
 ## Different settings:
 
 `rankedOrComp_only`: if you want the popups only for competitive/ranked matches, or also for pubs games (works only for team mode, not FFA)
@@ -13,3 +13,4 @@ ranked_killfeed.js shows the weapon of the enemy who has just died (AK dead, SMG
 its 1am i know the code is ewwww but its working
 
 discord support: https://discord.gg/9aUJK9yAq9
+
