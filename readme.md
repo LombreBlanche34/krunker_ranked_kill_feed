@@ -1,5 +1,5 @@
 # ranked killfeed
-ranked_killfeed.js shows the weapon of the enemy who has just died (AK dead, SMG dead, SNIPER dead, …)
+ranked_killfeed.js shows the weapon of the enemy who has just been killed by your allies (AK dead, SNIPER dead ...)
 ![example](https://github.com/LombreBlanche34/krunker_ranked_kill_feed/blob/main/example.png?raw=true)
 ## Different settings:
 
