@@ -31,7 +31,7 @@ window.addEventListener("load", () => {
 // 
 // ====================
 
-const VERSION = "1.0.0";
+const VERSION = "1.0.1";
 localStorage.setItem("lombre_ranked_killfeed_version", VERSION);
 
 
@@ -142,7 +142,7 @@ function showKillMessage(weaponName) {
     const messageDiv = document.createElement('div');
 
     // Build the text according to the option
-    const messageText = SHOW_KILLED_TEXT ? `${weaponName} killed` : weaponName;
+    const messageText = SHOW_KILLED_TEXT ? `${weaponName} dead` : weaponName;
     messageDiv.textContent = messageText;
 
     const currentTop = messageOffset;
@@ -206,7 +206,7 @@ const observer = new MutationObserver((mutations) => {
                         // Check if it's an ally who killed
                         const killerColor = killer.style.color;
 
-                        if (killerColor === 'rgb(158, 235, 86)') {
+                        if (killerColor === 'rgb(158, 235, 86)' || killerColor === 'rgb(255, 255, 255)') {
                             const victimWeaponName = playerWeapons[victimName] || 'Unknown';
 
                             // Display the message only if the victim's weapon is known
